@@ -181,7 +181,7 @@
                         <td width="157"><p align="center"><strong>SAMPEL COLLECTING POINT</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 001</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 01</strong></p></td>
                         <td width="216" valign="top"><p><strong>FULL    BLOOD COUNT  (FBC)</strong></p></td>
                         <td width="270" valign="top"><p><strong>Infection    / Blood Disorders </strong></p></td>
                         <td width="198" valign="top"><p><strong>  Anytime </strong></p></td>
