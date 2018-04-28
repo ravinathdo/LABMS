@@ -174,7 +174,7 @@
                   <h3 class="title">Offering the full spectrum of new treatments</h3>
                     <table  border="1" cellspacing="0" cellpadding="0"  class="table table-striped" >
                       <tr>
-                        <td width="37"><p align="center"><strong>&nbsp;</strong></p></td>
+                        <td width="37"><p align="center"><strong>Test ID;</strong></p></td>
                         <td width="216"><p align="center"><strong>BLOOD TEST NAME</strong></p></td>
                         <td width="270"><p align="center"><strong>PURPOSE</strong></p></td>
                         <td width="198"><p align="center"><strong>PREREQUESTIEST</strong></p></td>
