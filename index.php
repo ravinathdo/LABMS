@@ -174,42 +174,42 @@
                   <h3 class="title">Offering the full spectrum of new treatments</h3>
                     <table  border="1" cellspacing="0" cellpadding="0"  class="table table-striped" >
                       <tr>
-                        <td width="37"><p align="center"><strong>Test-ID;</strong></p></td>
+                        <td width="37"><p align="center"><strong>Test-ID</strong></p></td>
                         <td width="216"><p align="center"><strong>BLOOD TEST NAME</strong></p></td>
                         <td width="270"><p align="center"><strong>PURPOSE</strong></p></td>
                         <td width="198"><p align="center"><strong>PREREQUESTIEST</strong></p></td>
                         <td width="157"><p align="center"><strong>SAMPEL COLLECTING POINT</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 001.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 001</strong></p></td>
                         <td width="216" valign="top"><p><strong>FULL    BLOOD COUNT  (FBC)</strong></p></td>
                         <td width="270" valign="top"><p><strong>Infection    / Blood Disorders </strong></p></td>
                         <td width="198" valign="top"><p><strong>  Anytime </strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37"><p><strong>TEST-ID 02.</strong></p></td>
+                        <td width="37"><p><strong>TEST-ID 02</strong></p></td>
                         <td width="216"><p><strong>C    – REACTIVE PROTEIN  (CRP)</strong></p></td>
                         <td width="270" valign="top"><p><strong>Infection    / Inflammatory Condition /Acute Body Reaction</strong></p></td>
                         <td width="198"><p><strong>  Anytime</strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 03.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 03</strong></p></td>
                         <td width="216" valign="top"><p><strong>FASTING    BLOOD SUGAR  (FBS) </strong></p></td>
                         <td width="270" valign="top"><p><strong>Diabetes</strong></p></td>
                         <td width="198" valign="top"><p><strong> Fasting to 10 or 12 hours</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 04.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 04</strong></p></td>
                         <td width="216" valign="top"><p><strong>ERYTHROCYTE    SEDIMENTATION RATE (ESR)</strong></p></td>
                         <td width="270"><p><strong>Inflammatory    condition / Carcinomas</strong></p></td>
                         <td width="198"><p><strong> Anytime</strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 05.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 05</strong></p></td>
                         <td width="216" valign="top"><p><strong>SERUM    GLUTAMIC-OXALOACETIC TRANSAMINASE (SGOT) / (AST)</strong><br>
                           <strong>SERUM    GLUTAMIC-PYRUVIC TRANSAMINASE (SGPT) / (ALT)</strong></p></td>
                         <td width="270"><p><strong>                                                                            Liver Involvement </strong></p></td>
@@ -217,231 +217,231 @@
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 06.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 06</strong></p></td>
                         <td width="216" valign="top"><p><strong>THYROID    STIMULATING HORMO (TSH)</strong></p></td>
                         <td width="270"><p><strong>Thyroid    Conditions </strong></p></td>
                         <td width="198"><p><strong> Anytime</strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37"><p><strong>TEST-ID 07.</strong></p></td>
+                        <td width="37"><p><strong>TEST-ID 07</strong></p></td>
                         <td width="216"><p><strong>SERUM    ELECTROLYTES (SE)</strong></p></td>
                         <td width="270" valign="top"><p><strong>Renal    Involvement and any electrolytes imbalance</strong></p></td>
                         <td width="198"><p><strong> Anytime</strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 08.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 08</strong></p></td>
                         <td width="216" valign="top"><p><strong>GLYCATED    HAEMOGLOBIN (HbA1c)</strong></p></td>
                         <td width="270" valign="top"><p><strong>Diabetes    management of 3 months period</strong></p></td>
                         <td width="198"><p><strong> Anytime </strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37"><p><strong>TEST-ID 09.</strong></p></td>
+                        <td width="37"><p><strong>TEST-ID 09</strong></p></td>
                         <td width="216"><p><strong>DENGUE    ANTIGENT (NS1)      </strong></p></td>
                         <td width="270"><p><strong>Recent    or Previous Dengue   infection</strong></p></td>
                         <td width="198" valign="top"><p><strong> Fever of 1 – 3 days</strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37"><p><strong>TEST-ID 10.</strong></p></td>
+                        <td width="37"><p><strong>TEST-ID 10</strong></p></td>
                         <td width="216"><p><strong>DENGUE    ANTIBODY</strong></p></td>
                         <td width="270"><p><strong>Recent    or previous Dengue infection</strong></p></td>
                         <td width="198"><p><strong> After 5 days of fever</strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37"><p><strong>TEST-ID 11.</strong></p></td>
+                        <td width="37"><p><strong>TEST-ID 11</strong></p></td>
                         <td width="216"><p><strong>BLOOD    CULTURE</strong></p></td>
                         <td width="270"><p><strong>Septicemia    in blood</strong></p></td>
                         <td width="198"><p><strong> Anytime</strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37"><p><strong>TEST-ID 12.</strong></p></td>
+                        <td width="37"><p><strong>TEST-ID 12</strong></p></td>
                         <td width="216"><p><strong>SERUM    CREATINE (S.CRE) AND BLOOD UREA (BU)</strong></p></td>
                         <td width="270"><p><strong>Kidney    Failure </strong></p></td>
                         <td width="198"><p><strong> Anytime</strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37"><p><strong>TEST-ID 13.</strong></p></td>
+                        <td width="37"><p><strong>TEST-ID 13</strong></p></td>
                         <td width="216"><p><strong>SERUM    β HCG (S β HCG)</strong></p></td>
                         <td width="270" valign="top"><p><strong> To check active pregnancy / Ectopic    pregnancy</strong></p></td>
                         <td width="198"><p><strong> Anytime</strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 14.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 14</strong></p></td>
                         <td width="216" valign="top"><p><strong>BLOOD    PICTURE  </strong></p></td>
                         <td width="270" valign="top"><p><strong>Anemia    / Leukemia Diagnosis</strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37"><p><strong>TEST-ID 15.</strong></p></td>
+                        <td width="37"><p><strong>TEST-ID 15</strong></p></td>
                         <td width="216" valign="top"><p><strong>CALCIUM    (Ca2+) AND POSPHATE (Po43-)</strong></p></td>
                         <td width="270" valign="top"><p><strong>Born    Involvement / Kidney Involvement</strong></p></td>
                         <td width="198"><p><strong> Anytime</strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 16.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 16</strong></p></td>
                         <td width="216" valign="top"><p><strong>LIPID    PROFILE</strong></p></td>
                         <td width="270" valign="top"><p><strong>Cholesterol</strong></p></td>
                         <td width="198" valign="top"><p><strong> Fasting to 10 hours</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37"><p><strong>TEST-ID 17.</strong></p></td>
+                        <td width="37"><p><strong>TEST-ID 17</strong></p></td>
                         <td width="216"><p><strong>SERUM    BILIRUBIN (SBR)</strong></p></td>
                         <td width="270"><p><strong>Check    to bilirubin levels</strong></p></td>
                         <td width="198" valign="top"><p><strong> Neonatal Jaundice  Conditions</strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37"><p><strong>TEST-ID 18.</strong></p></td>
+                        <td width="37"><p><strong>TEST-ID 18</strong></p></td>
                         <td width="216"><p><strong>MYCOPLASMA    (IgM) (IgG)</strong></p></td>
                         <td width="270" valign="top"><p><strong>Detection    of mycoplasma Pneumonia infection</strong></p></td>
                         <td width="198"><p><strong> Anytime</strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37"><p><strong>TEST-ID 19.</strong></p></td>
+                        <td width="37"><p><strong>TEST-ID 19</strong></p></td>
                         <td width="216" valign="top"><p><strong>CLOTTING    PROFILE (PT/INR/APTT/BT/CT)   CLOTTING    TIME (CT) BLEEDING TIME (BT)</strong></p></td>
                         <td width="270"><p><strong>Coagulation    problem detection </strong></p></td>
                         <td width="198"><p><strong> Anytime</strong></p></td>
                         <td width="157"><p><strong>                                     Venous    Blood               (BT) - Ear Piers </strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 20.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 20</strong></p></td>
                         <td width="216" valign="top"><p><strong>HUMAN    IMMUNODEFICIENCY VIRUS (HIV)</strong></p></td>
                         <td width="270"><p><strong>Detection    of AIDs</strong></p></td>
                         <td width="198"><p><strong>Anytime</strong></p></td>
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 21.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 21</strong></p></td>
                         <td width="216" valign="top"><p><strong>VENEREAL    DISEASE RESEARCH LABORATORY TEST (VDRL)</strong></p></td>
                         <td width="270" valign="top"><p><strong>To    detection Syphilis</strong></p></td>
                         <td width="198" valign="top"><p><strong>Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 22.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 22</strong></p></td>
                         <td width="216" valign="top"><p><strong>HEPATITIS    B SURFACE ANTIGEN (HbSAg)</strong></p></td>
                         <td width="270" valign="top"><p><strong>Detection    of hepatitis B</strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 23.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 23</strong></p></td>
                         <td width="216" valign="top"><p><strong>CANCER    ANTIGEN 125 (CA125)</strong></p></td>
                         <td width="270" valign="top"><p><strong>Ovarian    and Bowel cancers</strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 24.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 24</strong></p></td>
                         <td width="216" valign="top"><p><strong>FILARIA    ANTIBODY TEST</strong></p></td>
                         <td width="270" valign="top"><p><strong>Detection    of filarial </strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 25.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 25</strong></p></td>
                         <td width="216" valign="top"><p><strong>MONOSPOST</strong></p></td>
                         <td width="270" valign="top"><p><strong>Diagnosis    of infectious mononucleosis</strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 26.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 26</strong></p></td>
                         <td width="216" valign="top"><p><strong>TROPANIN    – I                                 TROPANIN – T </strong></p></td>
                         <td width="270" valign="top"><p><strong>Detection    of myocardial infection </strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 27.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 27</strong></p></td>
                         <td width="216" valign="top"><p><strong>HIGH    PERFOMANCE LIUID CHROMATOGRAPHY (HPLC)</strong></p></td>
                         <td width="270" valign="top"><p><strong>Detection    of Thalassemia </strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 28.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 28</strong></p></td>
                         <td width="216" valign="top"><p><strong>POST    PRANDIAL BLOOD SUGAR (PPBS)</strong></p></td>
                         <td width="270" valign="top"><p><strong>Diagnosis    Diabetes ( GDM / DM )</strong></p></td>
                         <td width="198" valign="top"><p><strong> After 2 hours of main meal </strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 29.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 29</strong></p></td>
                         <td width="216" valign="top"><p><strong>KLEIHOUER</strong></p></td>
                         <td width="270" valign="top"><p><strong>Fetomaternal    Transfusion</strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime </strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 30.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 30</strong></p></td>
                         <td width="216" valign="top"><p><strong>IRON    PROFILE</strong></p></td>
                         <td width="270" valign="top"><p><strong>Detection    of Anemia and Iron content</strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 31.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 31</strong></p></td>
                         <td width="216" valign="top"><p><strong>PROSPATE-SPECIFIC    ANTIGEN (PSA)</strong></p></td>
                         <td width="270" valign="top"><p><strong>Prostate    Problem</strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 32.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 32</strong></p></td>
                         <td width="216" valign="top"><p><strong>BRAIN    NATRIURETIC PEPTIDE (BNP)</strong></p></td>
                         <td width="270" valign="top"><p><strong>Heart    Failure</strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 33.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 33</strong></p></td>
                         <td width="216" valign="top"><p><strong>LUPUS    BLOOD TEST</strong></p></td>
                         <td width="270" valign="top"><p><strong>Diagnosis    of recurrent miscarriges</strong></p></td>
                         <td width="198" valign="top"><p><strong>&nbsp;</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 34.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 34</strong></p></td>
                         <td width="216" valign="top"><p><strong>KARIYOTIPINY</strong></p></td>
                         <td width="270" valign="top"><p><strong>Diagnosis    of genetic disorders</strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 35.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 35</strong></p></td>
                         <td width="216" valign="top"><p><strong>ANTI    NEUCLEAR ANTIBODY</strong></p></td>
                         <td width="270" valign="top"><p><strong>SLE    (Systemic Lupus Erythematosus)</strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 36.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 36</strong></p></td>
                         <td width="216" valign="top"><p><strong>ALFA    FETO PROTINE</strong></p></td>
                         <td width="270" valign="top"><p><strong>Liver    malignancies</strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 37.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 37</strong></p></td>
                         <td width="216" valign="top"><p><strong>FACTOR    VIII</strong></p></td>
                         <td width="270" valign="top"><p><strong>Detection    of factor VIII deficiency / Hemophilia disorders</strong></p></td>
                         <td width="198" valign="top"><p><strong> Anytime</strong></p></td>
                         <td width="157" valign="top"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                       <tr>
-                        <td width="37" valign="top"><p><strong>TEST-ID 38.</strong></p></td>
+                        <td width="37" valign="top"><p><strong>TEST-ID 38</strong></p></td>
                         <td width="216" valign="top"><p><strong>FSH                                                PORALACTIN                                  PROGESTRONE</strong><br>
                           <strong>LH</strong></p></td>
                         <td width="270"><p><strong>Detection    of sub fertility / PCOS screening hormones levels</strong></p></td>
