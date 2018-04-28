@@ -16,6 +16,8 @@ session_start();
 //}
 include './model/DB.php';
 include './model/InvoiceModel.php';
+include './model/EmailContent.php';
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -112,9 +114,8 @@ include './model/InvoiceModel.php';
                                 //send email
                                 $to = $paytient_email;
                                 $subject = "Test Invoice";
-                                $txt = $invoice_id."Test Invoice has been ".$status_code;
-                                $headers = "From: webmaster@example.com";
-                                mail($to, $subject, $txt, $headers);
+                                $msg = $invoice_id."Test Invoice has been ".$status_code;
+                                sendEmail_labms($msg, $subject, $emailto);
                                 
                             }
                             ?>

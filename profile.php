@@ -96,18 +96,41 @@ include './model/DB.php';
                     $old_password = $_POST['old_password'];
                     $new_password = $_POST['new_password'];
 
-                    $sqlSE = "SELECT * FROM lb_user WHERE id = '$_id' AND pword = PASSWORD('$old_password')";
-                    $resultPost = getData($sqlSE);
-                    if ($resultPost != FALSE) {
-                        while ($row = mysqli_fetch_assoc($resultPost)) {
-                            $sql = "UPDATE lb_user SET pword = PASSWORD('$new_password')   WHERE id = '$_id' AND pword = PASSWORD('$old_password')";
-                            $msg = "Password change successfully";
-                            setUpdate($sql, $msg, TRUE);
-                        }
-                    } else {
-                        echo '<div class="alert alert-danger alert-dismissable msg-error">
+
+
+                    //if patient to employee
+                    if ($_SESSION['user']['role_code'] == 'PATIENT') {
+
+
+
+                        $sqlSE = "SELECT * FROM lb_patient WHERE id = '$_id' AND pword = PASSWORD('$old_password')";
+                        $resultPost = getData($sqlSE);
+                        if ($resultPost != FALSE) {
+                            while ($row = mysqli_fetch_assoc($resultPost)) {
+                                $sql = "UPDATE lb_patient SET pword = PASSWORD('$new_password')   WHERE id = '$_id' AND pword = PASSWORD('$old_password')";
+                                $msg = "Password change successfully";
+                                setUpdate($sql, $msg, TRUE);
+                            }
+                        } else {
+                            echo '<div class="alert alert-danger alert-dismissable msg-error">
                 <button aria-hidden="true" data-dismiss="alert" class="close" type="button"> × </button>
                 Invalid Password </div>';
+                        }
+                    } else {
+
+                        $sqlSE = "SELECT * FROM lb_user WHERE id = '$_id' AND pword = PASSWORD('$old_password')";
+                        $resultPost = getData($sqlSE);
+                        if ($resultPost != FALSE) {
+                            while ($row = mysqli_fetch_assoc($resultPost)) {
+                                $sql = "UPDATE lb_user SET pword = PASSWORD('$new_password')   WHERE id = '$_id' AND pword = PASSWORD('$old_password')";
+                                $msg = "Password change successfully";
+                                setUpdate($sql, $msg, TRUE);
+                            }
+                        } else {
+                            echo '<div class="alert alert-danger alert-dismissable msg-error">
+                <button aria-hidden="true" data-dismiss="alert" class="close" type="button"> × </button>
+                Invalid Password </div>';
+                        }
                     }
                 }
                 ?>
@@ -124,11 +147,21 @@ include './model/DB.php';
                         <label for="exampleInputEmail1">Last Name</label>
                         <input type="text" readonly="" value="<?= $_SESSION['user']['last_name'] ?>" class="form-control" id="exampleInputEmail1" >
                     </div>
-
-                    <div class="form-group">
+<?php if ($_SESSION['user']['role_code'] == 'PATIENT') {
+    ?>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">NIC Number</label>
+                            <input type="text" readonly="" value="<?= $_SESSION['user']['nic'] ?>" class="form-control" >
+                        </div>
+    <?php }else{ ?>
+        
+      <div class="form-group">
                         <label for="exampleInputEmail1">Employee Number</label>
-                        <input type="text" readonly="" value="<?= $_SESSION['user']['empno'] ?>" class="form-control" id="exampleInputEmail1" >
-                    </div>
+                        <input type="text" readonly="" value="<?= $_SESSION['user']['empno'] ?>" class="form-control" >
+                    </div>  
+ <?php   }
+?>
+
 
                     <div class="form-group">
                         <label for="exampleInputEmail1">Old Password</label>
