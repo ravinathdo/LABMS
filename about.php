@@ -64,7 +64,7 @@
                     <div class="col-md-6 ser-right-page">
                         <div class="port-2 effect-3">
                             <div class="image-box w3">
-                                <img src="images/a1.jpg" alt=" "/>
+                                <img src="images/lab_net_2.jpg" alt=" "/>
                             </div>
                             <div class="text-desc">
                                 <h4>LabMS</h4>
@@ -131,7 +131,7 @@
                     <div class="clearfix"></div>
                 </div>
                 <div class="col-md-4 abt-top agileits-w3layouts">
-                    <img src="images/aaa.jpg" alt=" "/>
+                    <img src="images/aaa.png" alt=" "/>
                 </div>
                 <div class="clearfix"></div>
             </div>
