@@ -105,7 +105,7 @@ $status_code = 'ACTIVE';
                             break;
                     }
                     $sql = "UPDATE lb_branch SET status_code = '$status_code' WHERE id = '".$_GET['branch_id']."' ";
-                    echo $sql;    
+                   // echo $sql;    
                     setUpdate($sql, "Status Updated", TRUE);
                     
                     }
@@ -120,6 +120,7 @@ $status_code = 'ACTIVE';
                             <th>Address</th>
                             <th>Telephone</th>
                             <th>Manage Users</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>

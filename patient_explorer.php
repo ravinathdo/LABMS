@@ -63,7 +63,7 @@ include './model/DB.php';
             <div class="container">
                 <nav class="navbar navbar-default">
                     <div class="navbar-header">
-                                                <?php include './_labms.php';?>
+                        <?php include './_labms.php'; ?>
 
                     </div>
                     <!-- top-nav -->
@@ -83,8 +83,30 @@ include './model/DB.php';
                 <?php include './_menu.php'; ?>
             </div>
             <div class="col-md-10">
-<h3>Patient Explorer</h3>
-                        <hr>
+                <h3>Patient Explorer</h3>
+                <hr>
+
+
+                <?php
+                if (isset($_GET['status_code'])) {
+                    $status_code = 'ACTIVE';
+                    switch ($_GET['status_code']) {
+                        case "ACTIVE":
+                            $status_code = 'DEACTIVE';
+                            break;
+                        case "DEACTIVE":
+                            $status_code = 'ACTIVE';
+                            break;
+                        default:
+                            break;
+                    }
+                    $sql = "UPDATE lb_patient SET status_code = '$status_code' WHERE id = '" . $_GET['id'] . "' ";
+                   // echo $sql;
+                    setUpdate($sql, "Status Updated", TRUE);
+                }
+                ?>
+
+
                 <table id="example" class="display" cellspacing="0" width="100%" style="font-size: small">
                     <thead>
                         <tr>
@@ -96,6 +118,7 @@ include './model/DB.php';
                             <th>Phone Number</th>
                             <th>Address</th>
                             <th>Created Branch</th>
+                            <th>Status</th>
                             <th></th>
                             <th></th>
                         </tr>
@@ -128,6 +151,7 @@ lb_patient.branch_id = lb_branch.id ";
                                     <td><?= $row['email']; ?></td>
                                     <td><?= $row['address']; ?></td>
                                     <td><?= $row['branch_name']; ?></td>
+                                    <td><a href="patient_explorer.php?id=<?= $row['id']; ?>&status_code=<?= $row['status_code']; ?>"><span  class="btn btn-default btn-xs"><?= $row['status_code']; ?></span></a></td>
                                     <td><?= $row['registered_date']; ?></td>
                                     <td><a href="manager_new_inventory.php?patient_id=<?= $row['id']; ?>"> New Invoice </a></td>
                                 </tr>

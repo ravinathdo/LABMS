@@ -169,11 +169,10 @@
         <!-- //services -->
 
         <!-- care -->
-        <div class="care_agileits">
+        <div class="care_agileitsx">
             <div class="container">
-                <div class="offer agile">
-                    <h3>Offering the full spectrum of new treatments</h3>
-                    <table border="1" cellspacing="0" cellpadding="0" style="color: white">
+                  <h3 class="title">Offering the full spectrum of new treatments</h3>
+                    <table  border="1" cellspacing="0" cellpadding="0"  class="table table-striped" >
                       <tr>
                         <td width="37"><p align="center"><strong>&nbsp;</strong></p></td>
                         <td width="216"><p align="center"><strong>BLOOD TEST NAME</strong></p></td>
@@ -450,7 +449,6 @@
                         <td width="157"><p><strong>Venous    Blood</strong></p></td>
                       </tr>
                   </table>
-                </div>
             </div>
         </div>
         <!-- //care -->
