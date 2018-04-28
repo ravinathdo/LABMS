@@ -131,7 +131,7 @@
                     <div class="clearfix"></div>
                 </div>
                 <div class="col-md-4 abt-top agileits-w3layouts">
-                    <img src="images/a2.png" alt=" "/>
+                    <img src="images/aaa.jpg" alt=" "/>
                 </div>
                 <div class="clearfix"></div>
             </div>
