@@ -105,6 +105,18 @@ include './model/DB.php';
                     setUpdate($sql, "Status Updated", TRUE);
                 }
                 ?>
+                
+                
+                
+                <?php
+                if(isset($_GET['reset_password'])){
+                     $nic = $_GET['nic'];
+                     $sql = "UPDATE lb_patient SET pword = PASSWORD('$nic') WHERE id = '" . $_GET['patient_id'] . "' ";
+                   // echo $sql;
+                    setUpdate($sql, "Password Reset Success", TRUE);
+                }
+                ?>
+                
 
 
                 <table id="example" class="display" cellspacing="0" width="100%" style="font-size: small">
@@ -154,6 +166,7 @@ lb_patient.branch_id = lb_branch.id ";
                                     <td><a href="patient_explorer.php?id=<?= $row['id']; ?>&status_code=<?= $row['status_code']; ?>"><span  class="btn btn-default btn-xs"><?= $row['status_code']; ?></span></a></td>
                                     <td><?= $row['registered_date']; ?></td>
                                     <td><a href="manager_new_inventory.php?patient_id=<?= $row['id']; ?>"> New Invoice </a></td>
+                                    <td><a href="patient_explorer.php?patient_id=<?= $row['id']; ?>&reset_password=TRUE&nic=<?= $row['nic']; ?>"> <i class="fa fa-key"></i> </a></td>
                                 </tr>
                                 <?php
                             }
