@@ -8,7 +8,7 @@
 
 //email code
 function sendEmail_labms($msg, $subject, $emailto) {
-    $from = "From: labms@safedrive.lk";
+    $from = "From: admin@vps174528.vps.ovh.ca";
     // To send HTML mail, the Content-type header must be set
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
