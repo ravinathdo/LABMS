@@ -16,7 +16,6 @@ session_start();
 //}
 include './model/DB.php';
 include './model/InvoiceModel.php';
-include './model/EmailContent.php';
 
 ?>
 <!DOCTYPE html>
@@ -98,6 +97,31 @@ include './model/EmailContent.php';
 
 
                             <?php
+                            
+                            
+                            
+                            
+//email code
+function sendEmail_labms($msg, $subject, $emailto) {
+    $from = "From: admin@vps174528.vps.ovh.ca";
+    // To send HTML mail, the Content-type header must be set
+    $headers = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+// Create email headers
+    $headers .= 'From: ' . $from . "\r\n" .
+            'Reply-To: ' . $from . "\r\n" .
+            'X-Mailer: PHP/' . phpversion();
+
+    // use wordwrap() if lines are longer than 70 characters
+    //$msg = wordwrap($msg, 70);
+    // send email
+    if ($emailto != '') {
+        mail($emailto, $subject, $msg, $headers);
+    }
+}
+
+
+
                             if (isset($_POST['btnChaneStat'])) {
                                 $status_code = $_POST['status_code'];
                                 $invoice_id = $_POST['invoice_id'];
@@ -115,7 +139,7 @@ include './model/EmailContent.php';
                                 $to = $paytient_email;
                                 $subject = "Test Invoice";
                                 $msg = $invoice_id."Test Invoice has been ".$status_code;
-                                sendEmail_labms($msg, $subject, $emailto);
+                                sendEmail_labms($msg, $subject, $to);
                                 
                             }
                             ?>

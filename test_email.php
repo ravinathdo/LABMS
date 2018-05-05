@@ -31,6 +31,6 @@ function sendEmail_labms($msg, $subject, $emailto) {
                                 $to = "anjanathenuwara7@gmail.com";
                                 $subject = "Test Invoice";
                                 $msg = "Test Email Success";
-                                sendEmail_labms($msg, $subject, $emailto);
+                                sendEmail_labms($msg, $subject, $to);
                                 
                                 ?>
